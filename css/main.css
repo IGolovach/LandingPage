@@ -3,14 +3,14 @@
     padding: 0;
 }
 body {
-  padding-top: 80px;
+  padding-top: 75px;
   background: #0A9197;
   font-family: 'OpenSans_Bold', sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 body > section{
-	padding: 10px 0;
+	padding: 20px 0;
 }
 a {
   color: #34495e;
@@ -20,7 +20,7 @@ a {
   transition: 300ms;
 }
 hr {
-  width: 95%;
+  width: 100%;
   size: 1px;
   color: #e5e5e5;
   text-align: center;
@@ -509,6 +509,12 @@ i.fa-github{
 .email{text-decoration: underline;}
 .email:hover{color:#000;}
 .active-slider>h2{position:absolute; z-index: 5;}
+#about_company:before {
+	display: block;
+	content: "";
+	height: 125px;
+	margin: -85px 0 0;
+}
 #services:before {
 	display: block;
 	content: "";
@@ -528,3 +534,4 @@ i.fa-github{
 	margin: -85px 0 0;
 }
 #services, #contacts{color:#fff;}
+#about_company, #news{color:#000;}
