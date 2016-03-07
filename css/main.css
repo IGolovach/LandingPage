@@ -415,19 +415,11 @@ ul.navbar li{color: #fff;}
    font-family: OpenSans_Bold;}
    
    .menu{background-color: #000}
-   .active-slider{
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--ms-filter: grayscale(100%);
--o-filter: grayscale(100%);
-filter: grayscale(100%);
-filter: url(grayscale.svg); /* Firefox 4+ */
-filter: gray; /* IE 6-9 */ 
-	} 
+
 .active-slider{
 	height: 100%;
+	width: 100%;
 	background-image: url(../img/slider_bg1.jpg);
-	position: relative;
 }
   .active-slider > h2{
     color: #0A9197;
