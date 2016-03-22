@@ -487,10 +487,13 @@ i.fa-github{
 	height: 400px;
 }
 #contacts h1, #contacts h1.dark.center {margin-top: 5%; text-align: center; position: absolute; left: 40%; top:-70%; bottom: 5%; display: block; z-index:5;}
-#contacts p{position: absolute; top:30%; bottom: 10%; display: block; z-index:5;}
-#contacts iframe{position: absolute; top: 120px; display: block; z-index:5;}
-#contacts  h3{position: absolute; top:80%; bottom: 30%; left: 30%; display: block; z-index:5;}
-#contacts address{position: absolute; top: 230%;  bottom: 40%; left: 30%; display: block; z-index:5;}
+#contacts hr{position: absolute; margin-top: 6%; display: block; z-index:5;}
+#contacts p{position: absolute; margin-top: 8%; display: block; z-index:5;}
+#contacts iframe{position: absolute; margin-top: 25%; display: block; z-index:5;}
+#contacts  h3{position: absolute; margin-top: 35%; left: 10%; display: block; z-index:5;}
+#contacts address span.addrtext{position: absolute; margin-top: 50%; left: 10%; display: block; z-index:5;}
+#contacts address span.phone, #contacts address span.email{position: absolute; margin-top: 50%; left: 55%; display: block; z-index:5;}
+
 #contacts::after {
     background: transparent;
     background: -moz-linear-gradient(top, rgba(10,145,151, 0.9) 0%, rgba(0, 0, 0, 0.1) 100%);
